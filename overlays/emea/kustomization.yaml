@@ -4,6 +4,9 @@ kind: Kustomization
 bases:
  - ../../base
 
+resources:
+- frontend-route.yaml 
+
 nameSuffix: -emea
 
 images:
